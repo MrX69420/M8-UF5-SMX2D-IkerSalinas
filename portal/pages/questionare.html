@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <a href="../index.html">Back</a>
+    </head>
+    <body>
+        <p><strong>Questionare for any doubts</strong></p>
+        <form action="/action_page.php">
+            <p>Personal Info</p>
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname" value="Insert First Name">
+            <label for="lname">| Last name:</label>
+            <input type="text" id="lname" name="lname" value="Insert Last Name"><br>
+            <label for="email">e-mail:</label>
+            <input type="text" id="email" name="email" value="Insert Email here"><br>
+            <label for="date">Select your age</label>
+            <select name="date">
+                <option value="date1" selected>More than 16</option>
+                <option value="date2">Less than 16</option>
+            </select><br>
+            <label for="livingarea">Living area:</label>
+            <input type="radio" id="Barcelona" name="livingarea" value="Barcelona">
+            <label for="Barcelona">Barcelona Ciutat</label>
+            <input type="radio" id="BaixLL" name="livingarea" value="BaixLL">     
+            <label for="BaixLL">Baix LLobregat</label>       
+            <input type="radio" id="rest" name="livingarea" value="rest">
+            <label for="rest">Other Place</label><br>
+            <p>Your doubt is?</p>
+            <input type="checkbox" id="php" name="php" value="PHP">
+            <label for="php">PHP</label>
+            <input type="checkbox" id="javascript" name="javascript" value="Javascript">
+            <label for="javascript">Javascript</label>
+            <input type="checkbox" id="python" name="python" value="Python">
+            <label for="python">Python</label><br>
+            <input type="text" id="Question" name="Question" placeholder="Write the question here"><br>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">    
+        </form>
+    </body>
+</html>
